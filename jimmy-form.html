@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+    body{
+    padding: 100px, 100px;
+background-color: rgb(158, 84, 84);
+margin: auto;
+width: 50%;
+    }
+label {
+            display: block; 
+            margin: 10px 0 5px;}
+input, select,textarea {
+            width: 80%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+</style>  
+</head>
+<body >
+   <h1>client registration</h1> 
+   <fieldset>
+   Name:<input type="text">
+   <br>
+   Email: <input type="email">
+   <br>
+   Date of birth: <input type="date">
+   <br>
+   Phone number: <input type="phone number">
+
+   <br>
+
+   Nationality
+   <select id="myselect" required>
+       <option value="Uganda">Uganda</option>
+       <option value="Tanzania">Tanzania</option>
+       <option value="Kenya">Kenya</option>
+       <option value="others">Others</option>
+   </select>
+    <br> 
+   
+    <br>
+    <legend>Gender</legend>
+    <select id="myselect" required>
+        <option value="male">male</option>
+        <option value="female">female</option>
+        <option value="others">others</option>
+        <option value="prefer not to say">prefer not to disclose</option>
+    </select>
+    <legend>Age Blacket</legend>
+    <select id="myselect" required>
+        <option value="male">below 18 yrs</option>
+        <option value="female">18-25 yrs</option>
+        <option value="others">26-35 yrs</option>
+        <option value="others">above 35 yrs</option>
+        <option value="prefer not to say">prefer not to disclose</option>
+    </select>
+               
+<br> 
+<br> 
+Upload your photo
+<br>
+<input type="file">
+<br>
+<button type="register">register</button>
+</fieldset>
+
+<br>
+Already have an account?
+<br>
+<br>
+Log in to your account
+<br>
+username
+<input type="text">
+<br>
+password
+<input type="password">
+<br>
+<button type="login">login</button>
+<br>
+</a>
+<br>
+<hr>
+<p>login with facebook</p>
+<a href="https://facebook.com" target="_login" title="this will take you to facebook"> 
+ facebook
+</a>
+
+</body>
+</html>
